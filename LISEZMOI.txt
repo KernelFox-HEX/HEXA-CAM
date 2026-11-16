@@ -1,0 +1,5 @@
+HEXACORE BODYCAM
+Ouvrir index.html (double-clic) fonctionne directement. Pour installer l'appli sur
+téléphone/tablette, héberger le dossier en HTTPS (GitHub Pages, Netlify...).
+Sources : src/ ; fichier groupé : js/hexacore.js
+Reconstruire : esbuild src/app.js --bundle --format=iife --outfile=js/hexacore.js
